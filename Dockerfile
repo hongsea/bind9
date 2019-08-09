@@ -1,5 +1,5 @@
 
-FROM ubuntu:bionic-20190612 AS 
+FROM ubuntu:bionic-20190612 AS  add-apt-repositories
 
 
 RUN apt-get update \
