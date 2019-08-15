@@ -31,7 +31,7 @@ COPY entrypoint.sh /sbin/entrypoint.sh
 
 RUN chmod 755 /sbin/entrypoint.sh
 
-EXPOSE 53/udp 53/tcp 10000/tcp
+EXPOSE 53/udp 53/tcp 10000/tcp 80
 
 ENTRYPOINT ["/sbin/entrypoint.sh"]
 
